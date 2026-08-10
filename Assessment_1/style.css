@@ -19,9 +19,7 @@ body {
         #b0d9df 100%
     );
 
-    color: var(--text-color);
-
-    font-family: 'Inter', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
     line-height: 1.7;
 }
@@ -36,7 +34,7 @@ body {
     align-items: center;
 
     text-align: center;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid;
 }
 
 .title-box {
@@ -50,18 +48,18 @@ body {
 }
 
 h1{
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: clamp(2.5rem, 5vw, 4.5rem);
      color: rgb(78, 151, 179);
 }
-}
 
-h2{font-family: 'Poppins', sans-serif;
+h2{font-family: Arial, Helvetica, sans-serif;
     font-size: clamp(1.4rem, 2vw, 2rem);
 }
+
 .question-number{
 
- font-family: 'Poppins', sans-serif;
+ font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
     font-weight: 600;
     letter-spacing: 2px;
@@ -79,7 +77,7 @@ h2{font-family: 'Poppins', sans-serif;
   /* Space outside the box line */
   margin: 15px 30px; 
   
-  /* Optional: rounds the sharp corners of the box */
+  /* Rounds the sharp corners of the box */
   border-radius: 5px; 
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
