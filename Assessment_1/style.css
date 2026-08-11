@@ -4,6 +4,11 @@
     transition: color 0.2s ease;
 }
 
+.eyebrow {
+    color:rgb(8, 31, 82);
+    font-weight: bold;
+}
+
 .introduction a:hover {
     color: #7B61FF;
     text-decoration: underline;
