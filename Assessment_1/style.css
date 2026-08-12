@@ -20,7 +20,11 @@
     text-decoration: underline;
     text-underline-offset: 4px;
 }
-
+    /*
+    For the compact navigation of thirteen questions, I used flexbox layout with wrapping
+    to create the buttons centred, by clicking on each number, the page will anchor to the
+    corresponding question without scrolling action. 
+    */
 .question-nav {
     padding: 25px 30px 35px;
     display: flex;
@@ -70,7 +74,11 @@
     transform: translateY(-3px);
     background-color: rgba(255, 255, 255, 0.55);
 }
-
+    /*
+    I chose the purple-pink-blue background gradient as inspired by the Luni website's color scheme. This helps
+    reflecting the Luni's identity, also creates an interesting visual effect which is soft enough but still 
+    highlight the main content of the the website.
+    */
 body {
     margin: 0;
 
@@ -110,7 +118,12 @@ body {
     justify-content: center;
     gap: 25px;
 }
-
+    /*
+    Devlopment acknowledgment: throughout the process I mainly used Google Search to 
+    find and troubleshoot the HTML and CSS code. Beside that, Chat Gpt was also involved 
+    in helping me understood the HTML-CSS techniques. Those resources were adapted to my own 
+    needs in order to create this website with my own ideas and design.
+    */
 .title-box h1 {
     margin: 0;
     transition: transform 0.4s ease,
@@ -155,18 +168,15 @@ h2{font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: #7B61FF;
 }
-
+    /*
+    Each response card is placed inside a bordered box with different colour shades when hovering over
+    each card, creating a visual hierarchy and making it easier for readers to distinguish between different
+    card.
+    */
 .response-card {
-  /* The line around the text: thickness, style, and color */
   border: 2px solid #333333; 
-  
-  /* Space between the text and the border line */
   padding: 15px; 
-  
-  /* Space outside the box line */
   margin: 15px 30px; 
-  
-  /* Rounds the sharp corners of the box */
   border-radius: 5px; 
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
@@ -277,7 +287,7 @@ html {
     opacity: 0.65;
     text-align: center;
 }
-
+/* The image layout becomes one column on smaller screens to maintain readability. */
 @media (max-width: 700px) {
     .response-card-with-image {
         grid-template-columns: 1fr;
