@@ -339,9 +339,21 @@ smaller screens to maintain readability. */
 .falling-decor span {
     position: absolute;
     top: -10%;
-    font-size: 18px;
+    font-size: 35px;
     opacity: 0.45;
     animation: fall 12s linear infinite;
+}
+
+.falling-decor span:nth-child(3n) {
+    font-size: 35px;
+}
+
+.falling-decor span:nth-child(3n + 1) {
+    font-size: 35px;
+}
+
+.falling-decor span:nth-child(3n + 2) {
+    font-size: 35px;
 }
 
 /* In the background I added an effect which creates falling elements that related to
@@ -374,18 +386,6 @@ the theme of the website and also create a sense of movement. */
         transform: translateY(120vh) rotate(360deg);
         opacity: 0;
     }
-}
-
-.falling-decor span:nth-child(3n) {
-    font-size: 14px;
-}
-
-.falling-decor span:nth-child(3n + 1) {
-    font-size: 22px;
-}
-
-.falling-decor span:nth-child(3n + 2) {
-    font-size: 17px;
 }
 
 .site-header,
